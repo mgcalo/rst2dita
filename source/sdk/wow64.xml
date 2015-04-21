@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="wow64" otherprops="wow64" xml:lang="en-US">
+   <title>Wow64</title>
+   <body>
+      <p>If running a 32-bit SDK on Windows x64, the OS performs automatically a redirection at filesystem level, effectively “hiding” the contents of the native <b>system32</b> and of some other folders.</p>
+      <p>To access all the files, you have to disable this redirection in the thread where you call <codeph>abc_file_check_file</codeph> or <codeph>abc_file_check_files</codeph> (see <xref href="http://msdn.microsoft.com/en-us/library/windows/desktop/aa365743(v=vs.85).aspx"
+               format="html"
+               scope="external">Wow64DisableWow64FsRedirection</xref>   ). For the upload threads, this is performed automatically.</p>
+   </body>
+</topic>

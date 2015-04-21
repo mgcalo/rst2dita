@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="creating-a-context"
+       otherprops="creating\ a\ context"
+       xml:lang="en-US">
+   <title>Creating a context</title>
+   <body>
+      <p>To create a connection to our ABC-Test service for online queries, you have to create and initialize a context containing internal state data.</p>
+      <note type="warning">
+         <p>The contexts are not thread-safe. Do not use them for multiple threads simultaneously. Create a context for each thread you use in your application.</p>
+      </note>
+      <ul>
+         <li>
+            <p>Call <codeph>abc_create_context()</codeph> to create a context.</p>
+         </li>
+         <li>
+            <p>Call <codeph>abc_file_initialize_context()</codeph> to start using the context.</p>
+         </li>
+         <li>
+            <p>When you don't need the context any longer, call <codeph>abc_file_uninitialize_context()</codeph> , then <codeph>abc_destroy_context()</codeph> .</p>
+         </li>
+      </ul>
+      <p>An error will occur, if you don't call the functions in this order.</p>
+   </body>
+</topic>

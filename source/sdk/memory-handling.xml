@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="memory-handling" otherprops="memory\ handling" xml:lang="en-US">
+   <title>Memory handling</title>
+   <body>
+      <p>In the rare case of an out-of-memory error, the default behaviour is for the SDK to abort program execution: <codeph>abort()</codeph> . However, the user can set a different out-of-memory handling function which does not have the same behaviour.</p>
+   </body>
+</topic>

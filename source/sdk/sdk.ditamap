@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map
+  PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+   <title translate="no">SDK Documentation</title>
+   <topicmeta>
+      <prodinfo>
+         <prodname>Test product</prodname>
+         <vrmlist>
+            <vrm version=""/>
+         </vrmlist>
+      </prodinfo>
+   </topicmeta>
+   <topicref href="introduction.xml"
+             type="topic"
+             format="dita"
+             scope="local"
+             navtitle="Introduction">
+      <topicref href="product-information.xml"
+                type="topic"
+                format="dita"
+                scope="local"
+                navtitle="Product information"/>
+      <topicref href="system-requirements.xml"
+                type="topic"
+                format="dita"
+                scope="local"
+                navtitle="System requirements"/>
+      <topicref href="third-party-libraries.xml"
+                type="topic"
+                format="dita"
+                scope="local"
+                navtitle="Third-party libraries"/>
+      <topicref href="sdk-archive-structure.xml"
+                type="topic"
+                format="dita"
+                scope="local"
+                navtitle="SDK archive structure"/>
+      <topicref href="compiling-the-sample-application.xml"
+                type="topic"
+                format="dita"
+                scope="local"
+                navtitle="Compiling the sample application"/>
+      <topicref href="possible-workflow.xml"
+                type="topic"
+                format="dita"
+                scope="local"
+                navtitle="Possible workflow"/>
+   </topicref>
+   <topicref href="using-the-abc-test-sdk.xml"
+             type="topic"
+             format="dita"
+             scope="local"
+             navtitle="Using the ABC-Test SDK">
+      <topicref href="initializing-the-abc-test-sdk.xml"
+                type="topic"
+                format="dita"
+                scope="local"
+                navtitle="Initializing the ABC-Test SDK"/>
+      <topicref href="uninitializing-the-abc-test-sdk.xml"
+                type="topic"
+                format="dita"
+                scope="local"
+                navtitle="Uninitializing the ABC-Test SDK"/>
+      <topicref href="creating-a-context.xml"
+                type="topic"
+                format="dita"
+                scope="local"
+                navtitle="Creating a context"/>
+      <topicref href="configuration.xml"
+                type="topic"
+                format="dita"
+                scope="local"
+                navtitle="Configuration"/>
+      <topicref href="callbacks.xml"
+                type="topic"
+                format="dita"
+                scope="local"
+                navtitle="Callbacks"/>
+      <topicref href="cloud-queries.xml"
+                type="topic"
+                format="dita"
+                scope="local"
+                navtitle="Cloud queries"/>
+      <topicref href="file-uploads.xml"
+                type="topic"
+                format="dita"
+                scope="local"
+                navtitle="File uploads"/>
+   </topicref>
+   <topicref href="tips-and-tricks.xml"
+             type="topic"
+             format="dita"
+             scope="local"
+             navtitle="Tips and tricks">
+      <topicref href="memory-handling.xml"
+                type="topic"
+                format="dita"
+                scope="local"
+                navtitle="Memory handling"/>
+      <topicref href="callback-thread-safety.xml"
+                type="topic"
+                format="dita"
+                scope="local"
+                navtitle="Callback thread safety"/>
+      <topicref href="proxy-usage.xml"
+                type="topic"
+                format="dita"
+                scope="local"
+                navtitle="Proxy usage"/>
+      <topicref href="ssl.xml"
+                type="topic"
+                format="dita"
+                scope="local"
+                navtitle="SSL"/>
+      <topicref href="wow64.xml"
+                type="topic"
+                format="dita"
+                scope="local"
+                navtitle="Wow64"/>
+      <topicref href="retrying.xml"
+                type="topic"
+                format="dita"
+                scope="local"
+                navtitle="Retrying"/>
+   </topicref>
+</map>

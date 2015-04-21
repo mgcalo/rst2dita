@@ -1,0 +1,26 @@
+//List of files which are indexed.
+fl = new Array();
+fl["0"]= "source/c_support-contact.html";
+fl["1"]= "source/sdk/callback-thread-safety.html";
+fl["2"]= "source/sdk/callbacks.html";
+fl["3"]= "source/sdk/cloud-queries.html";
+fl["4"]= "source/sdk/compiling-the-sample-application.html";
+fl["5"]= "source/sdk/configuration.html";
+fl["6"]= "source/sdk/creating-a-context.html";
+fl["7"]= "source/sdk/file-uploads.html";
+fl["8"]= "source/sdk/initializing-the-abc-test-sdk.html";
+fl["9"]= "source/sdk/introduction.html";
+fl["10"]= "source/sdk/memory-handling.html";
+fl["11"]= "source/sdk/possible-workflow.html";
+fl["12"]= "source/sdk/product-information.html";
+fl["13"]= "source/sdk/proxy-usage.html";
+fl["14"]= "source/sdk/retrying.html";
+fl["15"]= "source/sdk/sdk-archive-structure.html";
+fl["16"]= "source/sdk/ssl.html";
+fl["17"]= "source/sdk/system-requirements.html";
+fl["18"]= "source/sdk/third-party-libraries.html";
+fl["19"]= "source/sdk/tips-and-tricks.html";
+fl["20"]= "source/sdk/uninitializing-the-abc-test-sdk.html";
+fl["21"]= "source/sdk/using-the-abc-test-sdk.html";
+fl["22"]= "source/sdk/wow64.html";
+var doStem = false

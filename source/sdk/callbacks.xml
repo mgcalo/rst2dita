@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="callbacks" otherprops="callbacks" xml:lang="en-US">
+   <title>Callbacks</title>
+   <body>
+      <p>The ABC-Test SDK uses a callback mechanism to report and retrive information related to the actual analysing task from the application. These callbacks are functions which allow the application to perfom online lookups, taking a structure of function pointers as parameter.</p>
+      <p>None of these callbacks is mandatory. If you do not set any callback, the queries will be performed, but you will not receive any notifications about the events.</p>
+      <note type="warning">
+         <p>If you have multiple threads and set the same callback function inside your application, make sure the function is thread safe, since it will be called from different threads simultaneously.</p>
+      </note>
+      <ul>
+         <li>
+            <p>
+               <codeph>abc_file_error_cb</codeph> - The error callback, triggered when a file error occurs (for example when reading or opening a file).</p>
+         </li>
+         <li>
+            <p>
+               <codeph>abc_file_hash_status_cb</codeph> - The status callback, triggered to report the online status of a file/ hash (from the cloud).</p>
+         </li>
+         <li>
+            <p>
+               <codeph>abc_file_upload_init_cb</codeph> - The upload init callback, triggered to ask if the user agrees with uploading a file, and to pass some more information about it, if available.</p>
+         </li>
+         <li>
+            <p>
+               <codeph>abc_file_upload_start_cb</codeph> - The upload start callback, triggered when the upload is starting (called from a different thread).</p>
+         </li>
+         <li>
+            <p>
+               <codeph>abc_file_upload_progress_cb</codeph> - The upload progress callback, triggered to signal the upload progress (called from a different thread).</p>
+         </li>
+         <li>
+            <p>
+               <codeph>abc_file_upload_finish_cb</codeph> - The upload finish callback, triggered to signal that an upload has finished (called from a different thread).</p>
+         </li>
+      </ul>
+   </body>
+</topic>

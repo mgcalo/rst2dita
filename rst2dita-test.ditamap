@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title translate="no">Test-SDK</title>
+    <topicmeta>
+        <prodinfo>
+            <prodname><keyword keyref="longname"/></prodname>
+            <vrmlist>
+                <vrm version=""/>
+            </vrmlist>
+        </prodinfo>
+    </topicmeta>
+    <mapref href="source/sdk-keydefs.ditamap" processing-role="resource-only"/>
+    <mapref href="source/sdk/sdk.ditamap" processing-role="normal"/> 
+    <topicref href="source/c_support-contact.xml" type="topic" format="dita" scope="local"/>    
+</map>

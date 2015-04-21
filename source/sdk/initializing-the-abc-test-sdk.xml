@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="initializing-the-abc-test-sdk"
+       otherprops="initializing\ the\ abc-test\ sdk"
+       xml:lang="en-US">
+   <title>Initializing the ABC-Test SDK</title>
+   <body>
+      <p>In an application's lifetime, you need to initialize and uninitialize the ABC-Test SDK only once.</p>
+      <ul>
+         <li>
+            <p>Before beginning to use the SDK, call the initialization function <codeph>abc_file_initialize()</codeph> .</p>
+         </li>
+      </ul>
+      <p>If you don't initialize the SDK, most functions return an error code, except for <codeph>abc_enable_log()</codeph> .</p>
+   </body>
+</topic>

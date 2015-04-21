@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="retrying" otherprops="retrying" xml:lang="en-US">
+   <title>Retrying</title>
+   <body>
+      <p>There are cases in which you should keep retrying to scan a file, for example when you get the status <b>IN_PROGRESS</b> for a file. This status means that someone uploaded that file and it is being analyzed in the cloud. In this case, you should use the returned <b>ttl</b> value as a "retry after ttl seconds" measure. Likewise, if your application itself uploads a file, the same process applies. Limits should be set for the number of retries, for the maximum <b>ttl</b> value to be taken into consideration (for example, "do not retry after 1 week, if ttl says so"), etc.</p>
+   </body>
+</topic>

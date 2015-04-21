@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="third-party-libraries"
+       otherprops="third-party\ libraries"
+       xml:lang="en-US">
+   <title>Third-party libraries</title>
+   <body>
+      <p>Depending on the platform, the following third-party libraries are used by ABC-Test SDK.</p>
+      <table>
+         <tgroup cols="3">
+            <colspec colwidth="25*"/>
+            <colspec colwidth="25*"/>
+            <colspec colwidth="25*"/>
+            <tbody>
+               <row>
+                  <entry>
+                     <p>Library</p>
+                  </entry>
+                  <entry>
+                     <p>License</p>
+                  </entry>
+                  <entry>
+                     <p>Version</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>Apache APR</p>
+                  </entry>
+                  <entry>
+                     <p>APACHE</p>
+                  </entry>
+                  <entry>
+                     <p>1.4.5</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>Apache APR-UTIL</p>
+                  </entry>
+                  <entry>
+                     <p>APACHE</p>
+                  </entry>
+                  <entry>
+                     <p>1.3.12</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>bzlib2</p>
+                  </entry>
+                  <entry>
+                     <p>PUBLIC</p>
+                  </entry>
+                  <entry>
+                     <p>1.0.6</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>libcurl</p>
+                  </entry>
+                  <entry>
+                     <p>PUBLIC DOMAIN</p>
+                  </entry>
+                  <entry>
+                     <p>7.25.1</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>libcares</p>
+                  </entry>
+                  <entry>
+                     <p>MIT</p>
+                  </entry>
+                  <entry>
+                     <p>1.7.5</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>protobuf</p>
+                  </entry>
+                  <entry>
+                     <p>BSD</p>
+                  </entry>
+                  <entry>
+                     <p>2.3.0</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>stlport</p>
+                  </entry>
+                  <entry>
+                     <p>PUBLIC DOMAIN</p>
+                  </entry>
+                  <entry>
+                     <p>5.2.1</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>openssl</p>
+                  </entry>
+                  <entry>
+                     <p>PUBLIC</p>
+                  </entry>
+                  <entry>
+                     <p>1.0.1c</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+   </body>
+</topic>

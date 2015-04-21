@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="product-information"
+       otherprops="product\ information"
+       xml:lang="en-US">
+   <title>Product information</title>
+   <body>
+      <p>The ABC-Test SDK is a stand-alone, cross-platform, static library, which you can use to communicate to the Cloud.</p>
+      <p>The SDK is mainly written in C.</p>
+      <p>You can find the latest revision of the SDK at: <xref href="http://si.abc.com" format="html" scope="external">si.abc.com</xref>
+      </p>
+   </body>
+</topic>

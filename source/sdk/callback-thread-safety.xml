@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="callback-thread-safety"
+       otherprops="callback\ thread\ safety"
+       xml:lang="en-US">
+   <title>Callback thread safety</title>
+   <body>
+      <p>Make sure the code is threadsafe, because the callbacks can be triggered from different threads.</p>
+   </body>
+</topic>

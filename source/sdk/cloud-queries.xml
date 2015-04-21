@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="cloud-queries" otherprops="cloud\ queries" xml:lang="en-US">
+   <title>Cloud queries</title>
+   <body>
+      <p>The SDK provides functions which can query for one or multiple files/ hashes online. The query functions are synchronous and they block program execution until all the results are available.</p>
+      <note type="warning">
+         <p>If the SDK is 32-bit and runs under Windows x64, you will encounter an issue where the OS redirects the access to certain locations, so you will not be able to access parts of the filesystem. See <xref href="wow64.xml" format="dita" scope="local">Wow64</xref>  .</p>
+      </note>
+      <note>
+         <p>When looking up multiple files/ hashes:</p>
+      </note>
+      <p>Before the functions return to the caller, some of the callbacks are called, with the results for each file/ hash.</p>
+      <ul>
+         <li>
+            <p>An online query by hash(es) triggers the <codeph>abc_file_hash_status_cb</codeph> callbacks until the function exits.</p>
+         </li>
+         <li>
+            <p>An online query by file(es) triggers the <codeph>abc_file_hash_status_cb</codeph> callbacks and eventually <codeph>abc_file_fs_error_cb</codeph> and <codeph>abc_file_upload_init_cb</codeph> .</p>
+         </li>
+         <li>
+            <p>In case the user accepts the upload, a newly created thread triggers the callbacks <codeph>abc_file_upload_start_cb</codeph> , <codeph>abc_file_upload_progress_cb</codeph> and <codeph>abc_file_upload_finish_cb</codeph> .</p>
+         </li>
+      </ul>
+   </body>
+</topic>

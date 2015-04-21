@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ssl" otherprops="ssl" xml:lang="en-US">
+   <title>SSL</title>
+   <body>
+      <p>When using the SSL support, call <codeph>abc_ssl_threads_initialize()</codeph> prior to initializing the library and <codeph>abc_ssl_threads_uninitialize()</codeph> after uninitializing it.</p>
+   </body>
+</topic>

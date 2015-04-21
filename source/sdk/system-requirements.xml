@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="system-requirements"
+       otherprops="system\ requirements"
+       xml:lang="en-US">
+   <title>System requirements</title>
+   <body>
+      <p>Supported operating systems:</p>
+      <table>
+         <tgroup cols="3">
+            <colspec colwidth="9*"/>
+            <colspec colwidth="9*"/>
+            <colspec colwidth="9*"/>
+            <tbody>
+               <row>
+                  <entry>
+                     <p>OS</p>
+                  </entry>
+                  <entry>
+                     <p>x86</p>
+                  </entry>
+                  <entry>
+                     <p>x86_64</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>Windows</p>
+                  </entry>
+                  <entry>
+                     <p>✓</p>
+                  </entry>
+                  <entry/>
+               </row>
+               <row>
+                  <entry>
+                     <p>Linux</p>
+                  </entry>
+                  <entry>
+                     <p>✓</p>
+                  </entry>
+                  <entry>
+                     <p>✓</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>MacOS X</p>
+                  </entry>
+                  <entry/>
+                  <entry>
+                     <p>✓</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+   </body>
+</topic>

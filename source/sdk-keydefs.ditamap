@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map xml:lang="en-US">
+ <title>Keys for sdk</title>
+ <!-- ################ PRODUCT DATA ################## -->
+ <topicgroup processing-role="resource-only">
+  <topicmeta>
+   <navtitle translate="no">PRODUCT KEYS</navtitle>
+  </topicmeta>
+  <keydef keys="longname">
+   <topicmeta>
+    <keywords>
+     <keyword translate="no">ABC-SDK</keyword>
+    </keywords>
+   </topicmeta>
+  </keydef>
+  <keydef keys="abbrname">
+   <topicmeta>
+    <keywords>
+     <keyword translate="no">SDK</keyword>
+    </keywords>
+   </topicmeta>
+  </keydef>
+ </topicgroup>
+ <!-- ################ COMPANY DATA ################## -->
+ <topicgroup>
+  <topicmeta>
+   <navtitle translate="no">COMPANY KEYS</navtitle>
+  </topicmeta>
+  <keydef keys="company">
+   <topicmeta>
+    <keywords>
+     <keyword translate="no">TestCo GmbH &#x26; Co. KG</keyword>
+    </keywords>
+   </topicmeta>
+  </keydef>
+  <keydef keys="company-short">
+   <topicmeta>
+    <keywords>
+     <keyword translate="no">TestCo</keyword>
+    </keywords>
+   </topicmeta>
+  </keydef>
+  <keydef keys="address">
+   <topicmeta>
+    <keywords>
+     <keyword>Musterstrasse 1, 88065 Friedrichshafen, Germany</keyword>
+    </keywords>
+   </topicmeta>
+  </keydef>
+  <keydef keys="copyright">
+   <topicmeta>
+    <keywords>
+     <keyword><text translate="no">&#169; 2015 TestCo GmbH &#x26; Co. KG. </text><text>All
+      rights reserved.</text></keyword>
+    </keywords>
+   </topicmeta>
+  </keydef>
+  <keydef keys="website" href="http://www.think-dita.com" format="html" navtitle="www.think-dita.com"
+   scope="external"/>
+  <keydef keys="web-support" href="http://oasis.dita.org" format="html"
+   navtitle="Web support" scope="external"/>
+  <keydef keys="email-support" href="mailto:think.dita@email.de" format="email"
+   navtitle="Support by email" scope="external"/>
+  <keydef keys="web-kb" href="http://oasis.dita.org"
+   scope="external" format="html" navtitle="Knowledge Base"/>
+  <keydef keys="web-download" href="http://oasis.dita.org" format="html"
+   navtitle="http://oasis.dita.org" scope="external"/>
+  <keydef keys="logo" href="../styles/logo.jpg" scope="local" format="JPG"
+   navtitle="Logo"/>
+ </topicgroup>
+ <!-- ################ TOPICS ################## -->
+ <topicgroup>
+  <topicmeta>
+   <navtitle translate="no">TOPICS</navtitle>
+  </topicmeta>
+  <keydef keys="wow64" href="sdk/wow64.xml"/>
+ </topicgroup>
+ <!-- ################ IMAGES ################## -->
+ <topicgroup>
+  <topicmeta>
+   <navtitle translate="no">IMAGES</navtitle>
+  </topicmeta>
+  <keydef keys="workflow" href="aa_img/workflow.png" format="png" navtitle="Possible workflow">
+   <topicmeta>
+    <navtitle>Possible workflow</navtitle>
+    <linktext>Possible workflow</linktext>
+   </topicmeta>
+  </keydef>
+ </topicgroup>   
+</map>

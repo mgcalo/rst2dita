@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="compiling-the-sample-application"
+       otherprops="compiling\ the\ sample\ application"
+       xml:lang="en-US">
+   <title>Compiling the sample application</title>
+   <body>
+      <p>The SDK contains a sample application, to demonstrate its basic usage, for example, to check the status of a file with the cloud and to upload it, if needed.</p>
+      <ul>
+         <li>
+            <p>Edit the file <b>src/file_demo_sdk.c</b> , by replacing the define values with the ones provided to you by ABC.</p>
+         </li>
+      </ul>
+      <msgblock>#define ABC_SDK_PRODUCT_ID 0
+#define ABC_SDK_PRODUCT_LICENSE "-md5-sum-license-here-"
+#define ABC_SDK_SERVICE_ADDRESS "https://auth.abc.com/"</msgblock>
+      <ul>
+         <li>
+            <p>Compile the application using the <b>.sln</b> file (for Visual Studio 2010) or the <b>Makefile</b> (for UNIX platforms) in the <b>src</b> folder.</p>
+         </li>
+      </ul>
+      <p>The executable is created in the <b>bin</b> folder.</p>
+   </body>
+</topic>

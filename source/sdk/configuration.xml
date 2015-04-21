@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="configuration" otherprops="configuration" xml:lang="en-US">
+   <title>Configuration</title>
+   <body>
+      <p>The API provides functions for global settings, which are used by existing and new contexts:</p>
+      <ul>
+         <li>
+            <p>Setting a proxy</p>
+         </li>
+         <li>
+            <p>Using proxy credentials (user, password)</p>
+         </li>
+         <li>
+            <p>Setting the connection and data timeout</p>
+         </li>
+         <li>
+            <p>Using an SSL CA certificate</p>
+         </li>
+      </ul>
+   </body>
+</topic>

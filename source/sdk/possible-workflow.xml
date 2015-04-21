@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="possible-workflow"
+       otherprops="possible\ workflow"
+       xml:lang="en-US">
+   <title>Possible workflow</title>
+   <body>
+      <p>The diagram below provides a possible, simple workflow for working with the SDK.</p>
+      <image href="workflow.png" placement="break"/>
+      <p>The first step is to scan a file, or a series of files and, maybe, upload those unknown. For each of them, a status callback function is called, containing data like <b>category</b> and <b>status</b> . The next step is to check the <b>status</b> .</p>
+      <p>Possible status values:</p>
+      <ul>
+         <li>
+            <p>
+               <b>OK</b> - The file has been analized and the <b>category</b> parameter shows the file’s category. Having an <b>UNKNOWN</b> category can indicate an error on the server side, but it does not imply any action from the client. This step is followed by the <b>YES</b> and <b>NO</b> branch cases (depending on the category).</p>
+         </li>
+         <li>
+            <p>
+               <b>IN_PROGRESS</b> - The file has been uploaded by someone and it is in the process of being analyzed. The SDK user should call the check file/ hash function again, preferably after <b>ttl</b> seconds. This case is not drawn on the flowchart, for simplicity’s sake.</p>
+         </li>
+         <li>
+            <p>
+               <b>UPLOAD</b> - The server signals the SDK to upload the file. This is the <codeph>UPLOAD callback</codeph> branch. The SDK will invoke the <codeph>upload init</codeph> callback (no intervention needed).</p>
+         </li>
+      </ul>
+      <p>Once the file has been uploaded, the <codeph>upload finished</codeph> callback is triggered. If an error occurs, the user can be informed that the category is <b>UNKNOWN</b> . If the ticket expired, the entire scan request has to run from the top again, for a number of times. If the upload finished successfully, then a repeated check of this file should be performed, up to a number of times.</p>
+   </body>
+</topic>

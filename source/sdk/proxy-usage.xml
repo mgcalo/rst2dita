@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="proxy-usage" otherprops="proxy\ usage" xml:lang="en-US">
+   <title>Proxy usage</title>
+   <body>
+      <p>In UNIX environments, the <b>curl</b> library respects the <b>http(s)_proxy</b> variables by default, if set. If you want a different behaviour, you need to explicitely disable the proxy by calling the <codeph>abc_set_proxy</codeph> function with an empty string as proxy address.</p>
+   </body>
+</topic>

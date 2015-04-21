@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="uninitializing-the-abc-test-sdk"
+       otherprops="uninitializing\ the\ abc-test\ sdk"
+       xml:lang="en-US">
+   <title>Uninitializing the ABC-Test SDK</title>
+   <body>
+      <ul>
+         <li>
+            <p>To shut down the library, call the uninitialization function <codeph>abc_file_uninitialize()</codeph> .</p>
+         </li>
+      </ul>
+      <p>You cannot use the library after uninitialization.</p>
+   </body>
+</topic>

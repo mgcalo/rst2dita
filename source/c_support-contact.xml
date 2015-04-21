@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="support-contact" xml:lang="en-US">
+ <title>Contact</title>
+ <conbody>
+  <p>For technical questions during evaluation or implementation do not hesitate to contact our Support Team at:</p>
+  <p><xref keyref="email-support"/></p>
+ </conbody>
+</concept>
